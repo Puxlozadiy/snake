@@ -1,0 +1,38 @@
+#canv{
+    border: 5px solid black;
+    
+}
+
+div{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+body{
+    margin: 0;
+    
+}
+
+.canv-button{
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    width: 90px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#canv-button1{
+    left: 40px;
+}
+
+#canv-button2{
+    left: 150px;
+}
+
+.button-label{
+    cursor: pointer;
+}
